@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {  CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { SearchComponent } from './search/search.component';
+import { TagsComponent } from './tags/tags.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { SearchComponent } from './search/search.component';
     HeaderComponent,
     HomeComponent,
     SearchComponent,
+    TagsComponent,
     // StarRatingComponent
     ],
   imports: [
