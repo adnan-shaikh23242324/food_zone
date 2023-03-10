@@ -5,6 +5,7 @@ ul {
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
+    
 }
 
 ul li a {
@@ -32,6 +33,8 @@ li a:hover {
 
 img {
     border-radius: 10px;
+    margin: .3rem;
+    // padding: .3rem;
     // width: 90%;
     // height: 70%;
 }
@@ -40,11 +43,16 @@ content{
     position: relative;
     // margin: 2rem;
 }
+.name{
+    margin: .3rem;
+}
 .favourite{
     position: absolute;
     top: 13rem;
     right: 0.5rem;
     font-size: 1.0rem;
+    margin: .3rem;
+
 }
 .favourite.not{
     color: black;
@@ -52,6 +60,8 @@ content{
 }
 .star{
     margin-bottom: 0.2rem;
+    margin: .3rem;
+
 }
 .product-item-footer{
     display: flex;
@@ -60,6 +70,8 @@ content{
 }
 .origins{
     flex: 9;
+    margin: .3rem;
+
 }
 .origins span{
     border-radius: 2rem;
@@ -73,9 +85,13 @@ content{
     font-size: 0.8rem;
     flex: 3;
     text-align: right;
+    margin: .3rem;
+
 }
 .price{
     color: #424242;
     margin-top: .2rem;
+    margin: .3rem;
+
     // text-decoration: none;
 }

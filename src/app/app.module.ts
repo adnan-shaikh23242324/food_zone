@@ -12,6 +12,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {  CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { SearchComponent } from './search/search.component';
 import { TagsComponent } from './tags/tags.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
+import { FoodpageComponent } from './foodpage/foodpage.component';
 
 
 @NgModule({
@@ -21,6 +23,8 @@ import { TagsComponent } from './tags/tags.component';
     HomeComponent,
     SearchComponent,
     TagsComponent,
+    CartPageComponent,
+    FoodpageComponent,
     // StarRatingComponent
     ],
   imports: [

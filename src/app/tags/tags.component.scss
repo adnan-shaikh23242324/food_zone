@@ -1,7 +1,8 @@
 div{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    // justify-content: center;
+    // text-decoration:none ;
 }
 div a{
     background-color: #c3c2c2;
@@ -10,5 +11,6 @@ div a{
     border-radius: 10rem;
     color: blue;
     font-weight: 600;
+    text-decoration:none ;
     
 }
