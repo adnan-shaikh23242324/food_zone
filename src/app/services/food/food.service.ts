@@ -6,7 +6,7 @@ import { Foods } from 'src/app/shared/models/food';
 @Injectable({
   providedIn: 'root'
 })
-export class FoodService {
+export class  FoodService {
 
   constructor() { }
 
